@@ -51,3 +51,26 @@ make sure your ~/.*shrc have those varible:
 ```
 ➜  go run main.go
 ```
+### Graphql
+
+#### Todo
+Get user
+
+```
+query {
+    todos{
+        name
+    }
+}
+```
+
+Create todo
+
+```
+mutation {
+    createToDo (name: "smb", description: "test") {
+        name
+    }
+}
+```
+
