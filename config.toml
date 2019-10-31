@@ -1,0 +1,7 @@
+Listen = "127.0.0.1:3000"
+
+MongoServer  = ["127.0.0.1:27017"]
+MongoUser  = ""
+MongoPassword  = ""
+MongoAuthDB = ""
+MongoDatabase = "graphql"
